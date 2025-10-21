@@ -125,3 +125,18 @@ body {
   color: var(--text-light-active);
   border-color: var(--border-light-active);
 }
+
+@media (max-width: 428px) and (max-height: 926px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .middle-section {
+    padding-bottom: 26px;
+  }
+
+  .draw-notification {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
