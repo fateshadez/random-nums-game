@@ -13,12 +13,12 @@ playerScore.textContent = 0;
 computerScore.textContent = 0;
 
 let getPlayerName = () => {
-  return prompt("Enter your name, please!").trim();
+  return prompt("Enter your name, please!");
 };
 
 // Getting player's name
 playerName.textContent = getPlayerName();
-if (playerName.textContent == "") {
+if (playerName.textContent.trim() == "") {
   playerName.textContent = "Guest"
 }
 
